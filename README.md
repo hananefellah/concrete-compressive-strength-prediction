@@ -46,7 +46,9 @@ Predicts the compressive strength (MPa) of new concrete mixes using machine lear
 
 ## 📬 Contact  
 Created by FELLAH HANANE
+
 📧 Email: hananefellah35@gmail.com
+
 🌐 GitHub: hananefellah
 
 ## 📄 License  
