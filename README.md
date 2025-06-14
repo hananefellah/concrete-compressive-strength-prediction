@@ -45,7 +45,7 @@ Predicts the compressive strength (MPa) of new concrete mixes using machine lear
 - **Critical Insight**: Strength-age relationship is nonlinear
 
 ## 🛠️ How to Use
-1. **For new predictions**:
+**For new predictions**:
 
 ```python
 import joblib
