@@ -44,6 +44,14 @@ Predicts the compressive strength (MPa) of new concrete mixes using machine lear
 - **Best Model**: XGBoost (R²=0.934, MAE=2.82 MPa)  
 - **Critical Insight**: Strength-age relationship is nonlinear
 
+## 📬 Contact  
+Created by FELLAH HANANE
+📧 Email: hananefellah35@gmail.com
+🌐 GitHub: hananefellah
+
+## 📄 License  
+MIT License  
+
 ## 🛠️ How to Use
 **For new predictions**:
 
@@ -52,12 +60,3 @@ import joblib
 pipeline = joblib.load('concrete_strength_pipeline.pkl')  # Load everything
 new_mix = {'Cement': 350, 'Water': 180, ...}  # Your values
 strength = pipeline['model'].predict([pipeline['scaler'].transform([new_mix])])
-
-
-## 📬 Contact  
-Created by FELLAH HANANE
-📧 Email: hananefellah35@gmail.com
-🌐 GitHub: hananefellah
-
-## 📄 License  
-MIT License  
